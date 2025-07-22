@@ -16,3 +16,12 @@
 </a>
   
 </div>
+
+- [NextGen SIEM Deployment](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment)
+    - [Deployment](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Deployment.md)
+    - [Resources](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Resources.md)
+    - [Official Documentations](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/Official%20Documentations)
+
+- [Ingest Third-Party Data](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/Ingest%20Third-Party%20Data)
+    - [Third-Party Data Sources](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/Ingest%20Third-Party%20Data/Third-Party%20Data%20Sources)
+    - [Fleet Management](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/Ingest%20Third-Party%20Data/Fleet%20Management)
