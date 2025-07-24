@@ -112,3 +112,15 @@ config log syslogd2 setting
  set source-ip "Forti Mgmt IP"
 end
 ```
+- [Configuration Elements - Sources](https://library.humio.com/falcon-logscale-collector/log-collector-config-common-sources.html)
+- [Query Functions - parseCsv()](https://library.humio.com/data-analysis/functions-parsecsv.html)
+- [Query Functions - kvParse()](https://library.humio.com/data-analysis/functions-kvparse.html)
+- [Query Functions - parseJson()](https://library.humio.com/data-analysis/functions-parsejson.html)
+- [Query Functions - parseXml()](https://library.humio.com/data-analysis/functions-parsexml.html)
+- [Query Functions - parseUrl()](https://library.humio.com/data-analysis/functions-parseurl.html)
+- [Query Functions - parseTimestamp()](https://library.humio.com/data-analysis/functions-parsetimestamp.html)
+- [Query Functions - findTimestamp()](https://library.humio.com/data-analysis/functions-findtimestamp.html)
+- [Query Functions - regex()](https://library.humio.com/data-analysis/functions-regex.html)
+- [Query Functions - readFile()](https://library.humio.com/data-analysis/functions-readfile.html)
+- [Query Functions - replace()](https://library.humio.com/data-analysis/functions-replace.html)
+- [Query Functions - rename()](https://library.humio.com/data-analysis/functions-rename.html)
