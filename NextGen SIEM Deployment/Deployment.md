@@ -124,3 +124,6 @@ end
 - [Query Functions - readFile()](https://library.humio.com/data-analysis/functions-readfile.html)
 - [Query Functions - replace()](https://library.humio.com/data-analysis/functions-replace.html)
 - [Query Functions - rename()](https://library.humio.com/data-analysis/functions-rename.html)
+- [Parse Data - Create a Parser](https://library.humio.com/data-analysis/parsers-create.html)
+- [Parse Data - Removing Fields](https://library.humio.com/data-analysis/parsers-remove-field.html)
+- [Parse Data - Parsing Timestamps](https://library.humio.com/data-analysis/parsers-parsing-timestamps.html)
