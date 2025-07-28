@@ -33,7 +33,7 @@ Configuration File Paths:
 - Windows(Custom) → `C:\\Program Files (x86)\\CrowdStrike\\Humio Log Collector\\config.yaml`
 - MacOS → `/usr/local/etc/logscale-collector/config.yaml `
 
-Data Directory
+[Data Directory](https://library.humio.com/falcon-logscale-collector/log-collector-config-common-data.html)
 
 The top level element defines the where the Falcon LogScale Collector will create its database.db (database) file.
 
@@ -42,5 +42,14 @@ By default the following paths are used:
 - Windows → `C:\ProgramData\Log Collector`
 - macOS → `/var/local/logscale-collector `
 ```diff
-- Note :  This section is not applicable if you are using remote configuration management and must not be included.
+- Note : This section is not applicable if you are using remote configuration management and must not be included.
 ```
+
+[Sinks](https://library.humio.com/falcon-logscale-collector/log-collector-config-common-sinks.html)
+
+The sinks block configures the sinks (where the data will be sent) that are used by the source or sources. 
+
+```diff
+- Note : When syslog is the data source, only one sink can be configured per syslog data source. 
+```
+
