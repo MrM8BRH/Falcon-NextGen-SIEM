@@ -203,6 +203,7 @@ sources:
           - 4648   # Logon attempt using explicit credentials (network logon)
           - 4672   # Special privileges assigned to new logon (e.g., Administrator)
           - 4688   # A new process has been created
+          - 4689   # A process has exited
           - 4720   # User account created
           - 4722   # User account enabled
           - 4723   # An attempt was made to change an account's password
