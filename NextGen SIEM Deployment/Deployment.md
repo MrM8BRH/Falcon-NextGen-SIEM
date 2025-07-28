@@ -23,16 +23,6 @@ Configure: (Connector name, Parsers (Default Parser, HEC))
 
 Generate API Key: (API Key, API URL)
 ```
-FLC Side
-
-- [Download and Install Falcon LogScale Collector Using Curl Commands (Full Install)](https://library.humio.com/falcon-logscale-collector/log-collector-install-full.html)
-- [Install Falcon LogScale Collector on Linux - Custom](https://library.humio.com/falcon-logscale-collector/log-collector-install-custom-linux.html)
-- [Install Falcon LogScale Collector on Windows - Custom](https://library.humio.com/falcon-logscale-collector/log-collector-install-custom-windows.html)
-```
-sudo usermod -a -G adm humio-log-collector → should apply to read file on Linux
-Run the FLC (set as automatic service)
-Edit C:\Program Files (x86)\CrowdStrike\Humio Log Collector\config.yaml as the following format
-```
 ```
 dataDirectory: C:\ProgramData\LogScale Collector\
 
@@ -101,9 +91,6 @@ sinks:
     token: $INGEST_TOKEN  # Replace with your actual token
     url: $LOGSCALE_URL    # Replace with your ingest URL (must start with https://)
 ```
-```
-Restart humio service
-```
 FortiGate Firewall Side
 ```
 config log syslogd2 setting
@@ -112,18 +99,3 @@ config log syslogd2 setting
  set source-ip "Forti Mgmt IP"
 end
 ```
-- [Configuration Elements - Sources](https://library.humio.com/falcon-logscale-collector/log-collector-config-common-sources.html)
-- [Query Functions - parseCsv()](https://library.humio.com/data-analysis/functions-parsecsv.html)
-- [Query Functions - kvParse()](https://library.humio.com/data-analysis/functions-kvparse.html)
-- [Query Functions - parseJson()](https://library.humio.com/data-analysis/functions-parsejson.html)
-- [Query Functions - parseXml()](https://library.humio.com/data-analysis/functions-parsexml.html)
-- [Query Functions - parseUrl()](https://library.humio.com/data-analysis/functions-parseurl.html)
-- [Query Functions - parseTimestamp()](https://library.humio.com/data-analysis/functions-parsetimestamp.html)
-- [Query Functions - findTimestamp()](https://library.humio.com/data-analysis/functions-findtimestamp.html)
-- [Query Functions - regex()](https://library.humio.com/data-analysis/functions-regex.html)
-- [Query Functions - readFile()](https://library.humio.com/data-analysis/functions-readfile.html)
-- [Query Functions - replace()](https://library.humio.com/data-analysis/functions-replace.html)
-- [Query Functions - rename()](https://library.humio.com/data-analysis/functions-rename.html)
-- [Parse Data - Create a Parser](https://library.humio.com/data-analysis/parsers-create.html)
-- [Parse Data - Removing Fields](https://library.humio.com/data-analysis/parsers-remove-field.html)
-- [Parse Data - Parsing Timestamps](https://library.humio.com/data-analysis/parsers-parsing-timestamps.html)
