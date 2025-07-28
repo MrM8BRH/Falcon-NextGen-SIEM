@@ -13,7 +13,6 @@
 - SIEM 211: Incident Response and Investigation with Falcon Next-Gen SIEM
 
 ---
-- [Configuration Elements - Sources](https://library.humio.com/falcon-logscale-collector/log-collector-config-common-sources.html)
 - [Query Functions - parseCsv()](https://library.humio.com/data-analysis/functions-parsecsv.html)
 - [Query Functions - kvParse()](https://library.humio.com/data-analysis/functions-kvparse.html)
 - [Query Functions - parseJson()](https://library.humio.com/data-analysis/functions-parsejson.html)
