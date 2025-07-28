@@ -2,7 +2,7 @@
 
 Falcon LogScale Collector, available on Linux, macOS and Windows can be managed centrally through Fleet Management, enabling you to centrally manage multiple instances of Falcon LogScale Collector from within LogScale.
 
-Falcon LogScale Collector can collect data from several sources:
+Falcon LogScale Collector can collect data from several [sources](https://library.humio.com/falcon-logscale-collector/log-collector-config-common-sources.html):
 - Command sources
 - Windows events
 - Files
@@ -32,3 +32,15 @@ Configuration File Paths:
 - Windows(Full) → `C:\\Program Files (x86)\\CrowdStrike\\Logscale Log Collector\\config.yaml`
 - Windows(Custom) → `C:\\Program Files (x86)\\CrowdStrike\\Humio Log Collector\\config.yaml`
 - MacOS → `/usr/local/etc/logscale-collector/config.yaml `
+
+Data Directory
+
+The top level element defines the where the Falcon LogScale Collector will create its database.db (database) file.
+
+By default the following paths are used:
+- Linux → `/var/lib/logscale-collector`
+- Windows → `C:\ProgramData\Log Collector`
+- macOS → `/var/local/logscale-collector `
+```diff
+- Note :  This section is not applicable if you are using remote configuration management and must not be included.
+```
