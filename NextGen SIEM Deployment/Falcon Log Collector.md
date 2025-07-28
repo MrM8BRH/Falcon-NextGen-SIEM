@@ -11,6 +11,31 @@ Falcon LogScale Collector can collect data from several [sources](https://librar
 - unifiedlog
 - JournalD sources
 
+<details>
+ <summary>Example Config (YAML)</summary>
+
+```YAML
+sources:
+  demo:
+    type: file
+    include: /home/me/demo_log_file.log
+    sink: logscale
+    transforms:
+      # regex_filter transform can filter events by either including or excluding events matching a regex pattern.
+      - type: regex_filter
+        mode: include
+        pattern: ^category=(error|warning|info|debug)
+
+      # static_fields transform adds configured key, value pairs as fields
+      - type: static_fields
+        fields:
+          mykey: myvalue
+          #fields to add must be indented 2 spaces under the fields: label
+          # Passing environment variables is supported
+          myenvvar: $MY_ENV_VAR
+```
+</details>
+
 Links:
 - [Download and Install Falcon LogScale Collector Using Curl Commands (Full Install)](https://library.humio.com/falcon-logscale-collector/log-collector-install-full.html)
 - [Install Falcon LogScale Collector on Linux - Custom](https://library.humio.com/falcon-logscale-collector/log-collector-install-custom-linux.html)
@@ -43,7 +68,7 @@ By default the following paths are used:
 - macOS → `/var/local/logscale-collector `
 
 <details>
- <summary>YAML</summary>
+ <summary>Example Config (YAML)</summary>
 
 ```YAML
 dataDirectory: data
@@ -65,7 +90,7 @@ sinks:
 The sinks block configures the sinks (where the data will be sent) that are used by the source or sources. 
 
 <details>
- <summary>YAML</summary>
+ <summary>Example Config (YAML)</summary>
 
 ```YAML
 # Define the sink (destination) for the logs
