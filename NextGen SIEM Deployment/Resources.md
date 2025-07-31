@@ -13,21 +13,7 @@
 - SIEM 211: Incident Response and Investigation with Falcon Next-Gen SIEM
 
 ---
-- [Query Functions - parseCsv()](https://library.humio.com/data-analysis/functions-parsecsv.html)
-- [Query Functions - kvParse()](https://library.humio.com/data-analysis/functions-kvparse.html)
-- [Query Functions - parseJson()](https://library.humio.com/data-analysis/functions-parsejson.html)
-- [Query Functions - parseXml()](https://library.humio.com/data-analysis/functions-parsexml.html)
-- [Query Functions - parseUrl()](https://library.humio.com/data-analysis/functions-parseurl.html)
-- [Query Functions - parseTimestamp()](https://library.humio.com/data-analysis/functions-parsetimestamp.html)
-- [Query Functions - findTimestamp()](https://library.humio.com/data-analysis/functions-findtimestamp.html)
-- [Query Functions - regex()](https://library.humio.com/data-analysis/functions-regex.html)
-- [Query Functions - readFile()](https://library.humio.com/data-analysis/functions-readfile.html)
-- [Query Functions - replace()](https://library.humio.com/data-analysis/functions-replace.html)
-- [Query Functions - rename()](https://library.humio.com/data-analysis/functions-rename.html)
-- [Parse Data - Create a Parser](https://library.humio.com/data-analysis/parsers-create.html)
-- [Parse Data - Removing Fields](https://library.humio.com/data-analysis/parsers-remove-field.html)
-- [Parse Data - Parsing Timestamps](https://library.humio.com/data-analysis/parsers-parsing-timestamps.html)
---- 
+
 - [CrowdStrike University](https://university.crowdstrike.com/learn)
 - [LogScale (Humio) Documentation](https://library.humio.com/falcon-logscale-collector/log-collector.html)
 - [Sizing Guide](https://library.humio.com/falcon-logscale-collector/log-collector-install-sizing.html)
