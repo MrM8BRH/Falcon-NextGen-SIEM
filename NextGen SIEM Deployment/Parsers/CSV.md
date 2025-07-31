@@ -1,48 +1,18 @@
-event.category[0]
+#event.kind: The accepted values: 
 
-The accepted values:
-- api
-- authentication
-- configuration
-- database
-- driver
-- email
-- file
-- host
-- iam
-- intrusion_detection
-- library
-- malware
-- network
-- package
-- process
-- registry
-- session
-- threat
-- vulnerability
-- web
+[**alert**, **asset**, **enrichment**, **event**, **metric**, **state**, **pipeline_error**, **signal**].
 
+#event.outcome: The accepted values:
+
+[**failure**, **success**, **unknown**].
+
+#event.category[0]: The accepted values:
+
+[**api**, **authentication**, **configuration**, **database**, **driver**, **email**, **file**, **host**, **iam**, **intrusion_detection**, **library**, **malware**, **network**, **package**, **process**, **registry**, **session**, **threat**, **vulnerability**, **web**].
 	
-event.type[0]
+#event.type[0]: The accepted values:
 
-The accepted values:
-- access
-- admin
-- allowed
-- change
-- connection
-- creation
-- deletion
-- denied
-- end
-- error
-- group
-- indicator
-- info
-- installation
-- protocol
-- start
-- user
+[**access**, **admin**, **allowed**, **change**, **connection**, **creation**, **deletion**, **denied**, **end**, **error**, **group**, **indicator**, **info**, **installation**, **protocol**, **start**, **user**].
 
 ```YAML
 // #region METADATA
@@ -58,8 +28,8 @@ The accepted values:
 | event.kind := "event"
 | event.outcome := "success"
 | observer.type := "CVS"
-| event.category[0] := "configuration"
-| event.type[0] := "change"
+| event.category[0] := "file"
+| event.type[0] := "user"
 
 // #endregion
 
