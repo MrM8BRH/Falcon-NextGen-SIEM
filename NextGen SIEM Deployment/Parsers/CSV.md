@@ -21,6 +21,6 @@
 
 // #endregion
 
-| kvParse()
 | parseCsv(columns=[Timestamp,Action,"Actor UUID","Actor Username","Acting On Behalf Of User UUID","Acting On Behalf Of Username","Group UUID","Group Name","Member UUIDs","Member Names"])
 ```
+
