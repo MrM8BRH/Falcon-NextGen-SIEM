@@ -22,7 +22,6 @@
     - 🗒️ [Falcon Log Collector](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Falcon%20Log%20Collector.md)
     - 🗒️ [Access](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Access.md)
     - 🗒️ [Resources](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Resources.md)
+    - 📁 [YAML](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/YAML)
     - 📁 [Parsers](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/Parsers)
-        - [Notes](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Parsers/Notes.md)
-        - [CSV](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Parsers/CSV.md)
     - 📁 [Official Documentations](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/Official%20Documentations)
