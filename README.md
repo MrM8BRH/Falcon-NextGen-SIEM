@@ -26,9 +26,3 @@
         - [Notes](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Parsers/Notes.md)
         - [CSV](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Parsers/CSV.md)
     - 📁 [Official Documentations](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/Official%20Documentations)
-
-- Ingest Third-Party Data
-    - 🗒️ [Data Connectors](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/Ingest%20Third-Party%20Data/Data%20Connectors.pdf)
-    - 🗒️ [Parsers](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/Ingest%20Third-Party%20Data/Parsers.pdf)
-    - 📁 [Third-Party Data Sources](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/Ingest%20Third-Party%20Data/Third-Party%20Data%20Sources)
-    - 📁 [Fleet Management](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/Ingest%20Third-Party%20Data/Fleet%20Management)
