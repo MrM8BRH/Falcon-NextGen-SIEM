@@ -16,7 +16,8 @@
   - Data settings
 
 #### Download FLC (Falcon LogScale Collector)
-- **Path**: `Menu → Support and resources → Tools downloads → LogScale Collector`
+- **Path 1**: `Menu → Next-Gen SIEM → Data onboarding → Fleet management → Fleet overview → Get LogScale Collector`
+- **Path 2**: `Menu → Support and resources → Tools downloads → LogScale Collector`
 
 #### Open Support Ticket
 - **Path**: `Support and resources → Support portal`
@@ -28,7 +29,7 @@
 ```
 Next-Gen SIEM → Log management → Data Onboarding (Data connections → Add connection)
 
-Choose <FortiGate> 
+Choose <Source> 
 
 Configure: (Connector name, Parsers (Default Parser, HEC))
 
@@ -238,12 +239,3 @@ sinks:
     url: $LOGSCALE_URL    # Replace with your ingest URL (must start with https://)
 ```
 </details>
-
-FortiGate Firewall Side
-```
-config log syslogd2 setting
- set status enable
- set server "LogScal IP"
- set source-ip "Forti Mgmt IP"
-end
-```
