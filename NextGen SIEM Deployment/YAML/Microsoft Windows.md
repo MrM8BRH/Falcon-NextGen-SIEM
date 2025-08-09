@@ -33,6 +33,7 @@ sources:
           - 4767   # User account unlocked
           - 4776   # Credential validation (used by domain controller)
           - 4780   # Account name enumerated
+          - 7045   # A new service was installed on the system
     parser: microsoft-winevent
     transforms:
       - type: static_fields
