@@ -14,7 +14,17 @@
 <a href="https://techforpalestine.org/">
 <img src="https://badge.techforpalestine.org/default">
 </a>
-  
+
+<br>
+<br>
+CrowdStrike Named a Leader in the 2025 GigaOm SIEM Radar Report
+<br>
+<br>
+Falcon Next-Gen SIEM Leads the Pack
+<br>
+<br>
+<img width="372" height="740" alt="image" src="https://github.com/user-attachments/assets/b71f58fd-aa5c-42a9-ab47-96969616fb40" />
+
 </div>
 
 - NextGen SIEM Deployment
