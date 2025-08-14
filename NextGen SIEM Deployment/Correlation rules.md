@@ -21,3 +21,21 @@ Key components of correlation rules
 - **Actions:** The outcomes or responses triggered when the conditions of the correlation rule are met.
 
 [NG-SIEM Rule Templates](https://falcon.crowdstrike.com/documentation/category/a0000000/rule-templates)
+
+
+**Sensor rules**
+- Enabled out of the box for security teams who have deployed the sensor
+- Monitors and collects raw events directly from the endpoint
+- Operates on first-party (sensor) data only
+- Executes in real-time on the local system or near-real time in the cloud
+- Focuses on individual behaviors or events
+
+**Correlation rules**
+- Enabled by your security team
+- Looks for patterns and relationships between different events
+- Operates at the cloud level (Falcon platform) with first-party and third-party data
+- Processes data after it has been collected and sent to the cloud
+- Analyzes multiple events across time and multiple systems
+
+**Key distinction**
+Think of sensor rules as the "collectors" that gather individual pieces of evidence, while correlation rules are the "analysts" that piece multiple pieces of evidence together to identify broader patterns or threats.
