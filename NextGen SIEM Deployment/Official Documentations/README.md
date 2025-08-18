@@ -1,23 +1,11 @@
-Falcon Documentation → [Falcon Next-Gen SIEM](https://falcon.crowdstrike.com/documentation/category/f090d800/next-gen-siem)
+- Falcon Documentation → [Falcon Next-Gen SIEM](https://falcon.crowdstrike.com/documentation/category/f090d800/next-gen-siem)
+- CrowdStrike Training & Education → [CrowdStrike University](https://university.crowdstrike.com/learn)
 
-Falcon Next-Gen SIEM Learning Path
+<img width="2860" height="1268" alt="image" src="https://github.com/user-attachments/assets/85e4d5f6-5724-41bc-9f3a-90f5b1ab9dae" />
 
-**A Self-paced online learning**
-- SIEM 100: Next-Gen SIEM Fundamentals
-- CQL 101: CrowdStrike Query Language Fundamentals 1
-- CQL 102: CrowdStrike Query Language Fundamentals 2
-- FALCON 114: Falcon Fusion SOAR Fundamentals
-- FALCON 115: Create a Falcon Fusion SOAR Workflow
-- FALCON 151: Incident Workbench Fundamentals
-- FALCON 175: Falcon Foundry Fundamentals
-
-**Instructor-led courses**
-- SIEM 210: Onboarding Third-Party Data and Managing Falcon Next-Gen SIEM
-- SIEM 211: Incident Response and Investigation with Falcon Next-Gen SIEM
 
 ---
 
-- [CrowdStrike University](https://university.crowdstrike.com/learn)
 - [LogScale (Humio) Documentation](https://library.humio.com/falcon-logscale-collector/log-collector.html)
 - [Sizing Guide](https://library.humio.com/falcon-logscale-collector/log-collector-install-sizing.html)
 - [Next-Gen SIEM Data](https://developer.crowdstrike.com/docs/ng-siem/)
