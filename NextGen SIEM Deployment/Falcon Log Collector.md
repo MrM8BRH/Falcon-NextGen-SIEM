@@ -1,4 +1,4 @@
- The Falcon LogScale Collector is the native log shipper for LogScale. It can collect and send events to a LogScale repository, using LogScale ingest tokens to route data to the relevant repositories.
+The Falcon LogScale Collector is the native log shipper for LogScale. It can collect and send events to a LogScale repository, using LogScale ingest tokens to route data to the relevant repositories.
 
 Falcon LogScale Collector, available on Linux, macOS and Windows can be managed centrally through Fleet Management, enabling you to centrally manage multiple instances of Falcon LogScale Collector from within LogScale.
 
@@ -44,7 +44,13 @@ Links:
 Linux Servers
 ```
 # should apply to read file on Linux
-sudo usermod -a -G adm humio-log-collector
+usermod -a -G adm logscale-collector  # LogScale Collector
+usermod -a -G adm humio-log-collector # Humio Collector
+
+# Troubleshooting
+apt install jq # Debian 
+dnf install jq # Red Hat
+journalctl -u logscale-collector -n 1 -o cat | jq .
 ```
 Windows Servers
 ```
