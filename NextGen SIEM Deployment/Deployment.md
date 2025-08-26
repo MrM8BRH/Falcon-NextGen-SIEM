@@ -63,3 +63,25 @@ Configure: (Connector name, Parsers (Default Parser, HEC))
 
 Generate API Key: (API Key, API URL)
 ```
+
+#### Notes
+
+|        Role        |                                       Notification Focus                                      |
+|--------------------|-----------------------------------------------------------------------------------------------|
+| SOC Analyst        | Real-time alerts for triage-ready threats (for example, endpoint detections, identity misuse) |
+| Incident Responder | Alerts that require escalation, case creation, or forensic follow-up                          |
+| IT Admin           | System health, policy misconfigurations, non-critical alerts                                  |
+| Security Manager   | Aggregated reports, unresolved high-severity cases, risk trends                               |
+
+
+Mnemonic:
+
+Notify = visibility, Alert = response.
+
+
+| Use Case              | Detection                        | Response           | Workflow Type          |
+|-----------------------|----------------------------------|--------------------|------------------------|
+| Tool Detection        | Adware/PUP alert/USB             | Slack notification | Awareness Notification |
+| System Monitoring     | Disk space > 95%                 | ServiceNow ticket  | Operational Alert      |
+| VPN Login Failures    | Repeated failed logins + success | Case escalation    | Security Alert         |
+| Privileged PowerShell | Admin account running scripts    | Case escalation    | Security Alert         |
