@@ -1,0 +1,6 @@
+- [ ] [Cribl Download](https://cribl.io/download/)
+- [ ] [Setting Up Cribl Stream](https://docs.cribl.io/stream/set-up/)
+- [ ] [CrowdStrike Falcon LogScale Destination](https://docs.cribl.io/edge/destinations-humio-hec/)
+- [ ] [CrowdStrike Falcon Next-Gen SIEM Destination](https://docs.cribl.io/edge/destinations-crowdstrike-next-gen-siem/)
+- [ ] [Collecting CrowdStrike SIEM Connector Data With Cribl Edge](https://www.crowdstrike.com/wp-content/uploads/2023/07/crowdstrike-siem-cribl-edge-connector-guide.pdf)
+- [ ] [Cribl and CrowdStrike Deepen Partnership with Falcon Next-Gen SIEM integration](https://cribl.io/blog/cribl-and-crowdstrike-deepen-partnership-with-falcon-next-gen-siem-integration/)
