@@ -31,6 +31,7 @@ Falcon Next-Gen SIEM Leads the Pack
     - 🗒️ [Deployment](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Deployment.md)
     - 🗒️ [Falcon Log Collector](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Falcon%20Log%20Collector.md)
     - 🗒️ [Correlation rules](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/Correlation%20rules.md)
+    - 🗒️ [CQL](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/blob/main/NextGen%20SIEM%20Deployment/CQL.md)
     - 📁 [YAML](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/YAML)
     - 📁 [Parsers](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/Parsers)
     - 📁 [Official Documentations](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/Official%20Documentations)
