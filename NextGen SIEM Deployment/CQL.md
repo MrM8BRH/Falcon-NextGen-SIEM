@@ -1,8 +1,9 @@
 The **CrowdStrike Query Language (CQL)** is the syntax that lets you compose queries to retrieve, process, and analyze data in Falcon LogScale.
 
-- [Helpful-CQL-Queries](https://github.com/CrowdStrike/logscale-community-content/tree/main/Queries-Only/Helpful-CQL-Queries)
-- [hunting-queries-crowdstrike](https://github.com/GMoral13/hunting-queries-crowdstrike)
 - [CQL Hub](https://cql-hub.com/)
+- [Prediciv | Query Lab](https://querylab.prediciv.com/)
+- [Helpful-CQL-Queries (logscale-community-content)](https://github.com/CrowdStrike/logscale-community-content/tree/main/Queries-Only/Helpful-CQL-Queries)
+- [hunting-queries-crowdstrike](https://github.com/GMoral13/hunting-queries-crowdstrike)
 - [CrowdStrike RTR Bookmarklet Creator](https://surbo.github.io/RTRCommands/)
 - [ThreatHuntingQuery/CrowdStrike-falcon-query-assets-tree-main-Falcon-Event-Search-Threat-Hunting-Queries](https://github.com/ThreatHuntingQuery/CrowdStrike-falcon-query-assets-tree-main-Falcon-Event-Search-Threat-Hunting-Queries)
 
