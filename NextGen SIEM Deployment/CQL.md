@@ -2,6 +2,7 @@ The **CrowdStrike Query Language (CQL)** is the syntax that lets you compose que
 
 - [CQL Hub](https://cql-hub.com/)
 - [Prediciv | Query Lab](https://querylab.prediciv.com/)
+- [Splunk (SPL) to LogScale/NG-SIEM (CQL) Query Converter](https://dataelicit.com/spl-to-cql-converter)
 - [Helpful-CQL-Queries (logscale-community-content)](https://github.com/CrowdStrike/logscale-community-content/tree/main/Queries-Only/Helpful-CQL-Queries)
 - [hunting-queries-crowdstrike](https://github.com/GMoral13/hunting-queries-crowdstrike)
 - [CrowdStrike RTR Bookmarklet Creator](https://surbo.github.io/RTRCommands/)
