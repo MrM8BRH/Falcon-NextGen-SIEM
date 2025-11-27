@@ -1,5 +1,6 @@
 The **CrowdStrike Query Language (CQL)** is the syntax that lets you compose queries to retrieve, process, and analyze data in Falcon LogScale.
 
+- [LogScale Documentation - Query Functions](https://library.humio.com/data-analysis/functions.html)
 - [CQL Hub](https://cql-hub.com/)
 - [Prediciv | Query Lab](https://querylab.prediciv.com/)
 - [Splunk (SPL) to LogScale/NG-SIEM (CQL) Query Converter](https://dataelicit.com/spl-to-cql-converter)
