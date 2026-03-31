@@ -59,10 +59,10 @@ Parse Mode: HTML
 4.1 EPP Detection Message
 ```
 ${data['WorkflowCustomVariable.Severity_Color']}  ${data['Trigger.Detection.SeverityDisplayName']}  ${data['WorkflowCustomVariable.Severity_Color']} &#10
- ───────────────────────────────── &#10
+───────────────────────────────── &#10
 🏛️ ${data['WorkflowCustomVariable.CID_Name']} &#10
 🛡 Product: EPP Detection &#10 
- ───────────────────────────────── &#10 
+───────────────────────────────── &#10 
 🔎 Detection Name: ${data['Trigger.Detection.Name']} &#10
 🔎 Detection Type: ${data['Trigger.Detection.EPP.EPPDetectionType']} &#10
 🕒 Detection Time: ${data['WorkflowCustomVariable.Local_Time']} &#10
@@ -80,10 +80,10 @@ ${data['WorkflowCustomVariable.Severity_Color']}  ${data['Trigger.Detection.Seve
 4.2 NG-SIEM Detection Message
 ```
 ${data['WorkflowCustomVariable.Severity_Color']}  ${data['Trigger.Detection.SeverityDisplayName']}  ${data['WorkflowCustomVariable.Severity_Color']} &#10
- ───────────────────────────────── &#10
+───────────────────────────────── &#10
 🏛️ ${data['WorkflowCustomVariable.CID_Name']} &#10
 🛡 Product: NG-SIEM Detection &#10 
- ───────────────────────────────── &#10
+───────────────────────────────── &#10
 🔎 Detection Name: ${data['Trigger.Detection.Name']} &#10
 🔎 Detection Type: ${data['Trigger.Detection.NGSIEM.DetectionType']} &#10
 ⚠️ Severity: ${data['Trigger.Detection.SeverityDisplayName']} &#10
@@ -100,10 +100,10 @@ ${data['WorkflowCustomVariable.Severity_Color']}  ${data['Trigger.Detection.Seve
 4.3 NG-SIEM ThirdParty Message
 ```
 ${data['WorkflowCustomVariable.Severity_Color']}  ${data['Trigger.Detection.SeverityDisplayName']}  ${data['WorkflowCustomVariable.Severity_Color']} &#10
- ───────────────────────────────── &#10
+───────────────────────────────── &#10
 🏛️ ${data['WorkflowCustomVariable.CID_Name']} &#10
 🛡 Product: NG-SIEM ThirdParty &#10
- ───────────────────────────────── &#10
+───────────────────────────────── &#10
 🔎 Detection Name: ${data['Trigger.Detection.Name']} &#10
 🔎 Detection Type: ${data['Trigger.Detection.ThirdParty.DetectionType']} &#10
 ⚠️ Severity: ${data['Trigger.Detection.SeverityDisplayName']} &#10
