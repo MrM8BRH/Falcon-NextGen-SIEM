@@ -15,14 +15,6 @@
 <a href="https://techforpalestine.org/">
 <img src="https://badge.techforpalestine.org/default">
 </a>
-
-
-<br>
-<br>
-<img width="2560" height="1413" alt="image" src="https://github.com/user-attachments/assets/4b799309-71b5-4575-8e2a-19a4c10c00d1" />
-
-
-
 </div>
 
 - NextGen SIEM Deployment
@@ -34,3 +26,15 @@
     - 📁 [YAML](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/YAML)
     - 📁 [Parsers](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/Parsers)
     - 📁 [Official Documentations](https://github.com/MrM8BRH/Falcon-NextGen-SIEM/tree/main/NextGen%20SIEM%20Deployment/Official%20Documentations)
+
+
+<div align="center">
+<br>
+<br>
+<img width="800" height="533" alt="image" src="https://github.com/user-attachments/assets/db97b578-86d2-421c-a4e2-a043d912afec" />
+<img width="2560" height="1413" alt="image" src="https://github.com/user-attachments/assets/4b799309-71b5-4575-8e2a-19a4c10c00d1" />
+
+
+
+
+</div>
